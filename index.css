@@ -1,0 +1,75 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1440px;
+    }
+@media (max-width:375px){}
+@media (min-width:1440px){}
+    
+    .smallbackground{
+    font-size: 16px;
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 375px;
+    box-sizing: border-box;
+    margin: 0;
+
+   }
+   .smallbackground img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-height: 200px;
+   }
+   h3{
+    color: hsl(14, 45%, 36%);
+   }
+   #Ingredients{
+    font-size: 8px;
+   }
+   h4{
+    color:hsl(332, 51%, 32%);
+    font-size: 10px;
+    margin-left: 10px;
+    
+   }
+   #preparation ul{
+    font-size: 8px;
+    margin-bottom: 2vh;
+   }
+   #preparation{
+   padding: 10px 0;}
+   p{
+    font-size: 8px;
+
+   }
+   div #preparation{
+    background-color:hsl(30, 54%, 90%); 
+   }
+   
+   
+    h1{
+   color: hsl(24, 5%, 18%);
+   font-size: 20px;
+    }
+   @import url(https://fonts.google.com/specimen/Young+Serif);
+   footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2px;
+    text-align: left;
+    font-size: 8px;
+    }
+footer div:nth-child (odd){  
+    border: 1px solid black;
+}
+   
+
